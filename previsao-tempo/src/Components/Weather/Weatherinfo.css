@@ -1,0 +1,39 @@
+.container{
+    max-width: 70%;
+    height: auto;
+    background-color: #b3b9e7;
+    margin: 0 auto;
+    padding: 0 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+
+h2{
+    font-size: 2rem;
+}
+
+.content-info{
+    overflow: hidden;
+    display: flex;
+    gap: 10px;
+}
+
+.content-info-rodape{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap: 40px;
+}
+
+.temperatura{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+img{
+    object-fit: contain;
+}
