@@ -26,12 +26,23 @@ h2{
     display: flex;
     justify-content: space-around;
     width: 100%;
-    gap: 40px;
+    
+    
 }
+
+.content-info-rodape p{
+    font-size: 15px;
+} 
 
 .temperatura{
     font-size: 24px;
     font-weight: 800;
+    
+}
+
+span{
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 img{

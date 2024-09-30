@@ -7,9 +7,20 @@
 
 }
 
-.item-content .item{
+.weather-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 15px;
+}
 
-    width: 100px;
-    height: 100px;
-    background-color: white;
+
+.weather-item{
+  background-color: #e4e2e2;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px ;
+
+
 }
