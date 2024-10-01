@@ -13,7 +13,7 @@ function Weatherinfo5days({weather5Days}) {
           dailyForecast[date] = forecast
       }
   }
-  const next5DaysForecast = Object.values(dailyForecast).slice(1, 6)
+  const next5DaysForecast = Object.values(dailyForecast).slice(1, 5)
 
   function convertDate(date) {
       const newDate = new Date(date.dt * 1000).toLocaleDateString('pt-BR', { weekday: 'long', day: '2-digit' })
@@ -22,7 +22,7 @@ function Weatherinfo5days({weather5Days}) {
   }
   return (
       <div className='container'>
-          <h3 className=''>Previsão Próximos 5 Dias</h3>
+          <h3 className=''>Previsão Próximos 4 Dias</h3>
           <div className='weather-list'>
               {next5DaysForecast.map(forecast => (
                   <div key={forecast.dt} className='weather-item'>

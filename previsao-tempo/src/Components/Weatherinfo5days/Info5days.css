@@ -10,17 +10,23 @@
 .weather-list{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 10px;
+    gap: 5px;
     padding: 15px;
 }
 
 
 .weather-item{
-  background-color: #e4e2e2;
+  background-color: #ffffff;
   text-align: center;
   border-radius: 10px;
-  padding: 10px ;
+  padding: 0 5px ;
 
 
+}
+
+@media (max-width: 880px) {
+  .weather-list{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }

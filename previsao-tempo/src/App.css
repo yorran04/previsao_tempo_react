@@ -4,15 +4,15 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: rgb(92, 92, 199);
+    background: rgb(62, 105, 197);
     padding: 25px;
     font-family: "Poppins", sans-serif;
 }
 
 .contanier{
     width: 100%;
-    max-width: 1200px;
-    display:inline-block;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 .paragrafo{
